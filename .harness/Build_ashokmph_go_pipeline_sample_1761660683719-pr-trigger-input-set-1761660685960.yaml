@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ashokmph_go_pipeline_sample_1761660683719-pr-trigger-input-set
+  identifier: Build_ashokmph_go_pipeline_sample_1761660683719prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ashokmph_go_pipeline_sample_1761660683719
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
